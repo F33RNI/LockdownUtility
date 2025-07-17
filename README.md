@@ -19,6 +19,8 @@ calls <https://developer.android.com/reference/android/devicelock/DeviceLockMana
 
 - Or by pressing "Lock now" button on the main activity
 
+![Screenshot](https://github.com/F33RNI/LockdownUtility/screenshot.png)
+
 ## ⬇️ Download
 
 <https://github.com/F33RNI/LockdownUtility/releases/latest>
