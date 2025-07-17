@@ -19,11 +19,7 @@ calls <https://developer.android.com/reference/android/devicelock/DeviceLockMana
 
 - Or by pressing "Lock now" button on the main activity
 
-  <div style="height:400px;width:auto;text-align:left;">
-      <p align="center" style="height:400px;width:auto;text-align:left;">
-          <img src="https://raw.githubusercontent.com/F33RNI/LockdownUtility/refs/heads/main/screenshot.png" >
-      </p>
-  </div>
+  <img src="https://raw.githubusercontent.com/F33RNI/LockdownUtility/refs/heads/main/screenshot.png" height="400">
 
 ## ⬇️ Download
 
