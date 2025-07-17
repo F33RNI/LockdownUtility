@@ -1,0 +1,25 @@
+name: Build binary files for release
+
+on:
+  release:
+    types:
+      - 'created'
+      - 'edited'
+
+jobs:
+  build-main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu'
+          java-version: '17'
+          cache: 'gradle'
+      - run: ./gradlew assembleRelease --stacktrace
+      - run: ./gradlew bundleRelease --stacktrace
+      - name: Upload APK Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            ./app/build/outputs/apk/release/*.apk
