@@ -3,7 +3,7 @@
 ## ❓ About
 
 Simple app that
-calls <https://developer.android.com/reference/android/devicelock/DeviceLockManager#lockDevice(java.util.concurrent.Executor,%20android.os.OutcomeReceiver%3Cjava.lang.Void,java.lang.Exception%3E)>
+calls <https://developer.android.com/reference/android/app/admin/DevicePolicyManager#lockNow()>
 
 - You can lock device via Termux / any other terminal emulator
 
