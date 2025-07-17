@@ -1,5 +1,7 @@
 # 🔒 LockdownUtility
 
+## ❓ About
+
 Simple app that
 calls <https://developer.android.com/reference/android/devicelock/DeviceLockManager#lockDevice(java.util.concurrent.Executor,%20android.os.OutcomeReceiver%3Cjava.lang.Void,java.lang.Exception%3E)>
 
@@ -15,4 +17,8 @@ calls <https://developer.android.com/reference/android/devicelock/DeviceLockMana
   $ adb shell am start -n com.f3rni.lockdownutility/.LockActivity
   ```
 
-- Or by pressing "Lock now" button on main activity
+- Or by pressing "Lock now" button on the main activity
+
+## ⬇️ Download
+
+<https://github.com/F33RNI/LockdownUtility/releases/latest>
