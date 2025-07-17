@@ -8,18 +8,22 @@ calls <https://developer.android.com/reference/android/devicelock/DeviceLockMana
 - You can lock device via Termux / any other terminal emulator
 
   ```shell
-  $ am start -n com.f3rni.lockdownutility/.LockActivity
+  am start -n com.f3rni.lockdownutility/.LockActivity
   ```
 
 - Or via ADB shell
 
   ```shell
-  $ adb shell am start -n com.f3rni.lockdownutility/.LockActivity
+  adb shell am start -n com.f3rni.lockdownutility/.LockActivity
   ```
 
 - Or by pressing "Lock now" button on the main activity
 
-![Screenshot](https://github.com/F33RNI/LockdownUtility/screenshot.png)
+  <div style="height:400px;width:auto;text-align:left;">
+      <p align="center" style="height:400px;width:auto;text-align:left;">
+          <img src="https://raw.githubusercontent.com/F33RNI/LockdownUtility/refs/heads/main/screenshot.png" >
+      </p>
+  </div>
 
 ## ⬇️ Download
 
